@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+}
+header{
+    background: #5CBAFF;
+}
+nav{
+    width: 43%;
+    margin: auto;
+    padding: 30px 0;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+    margin-left: 36px;
+    color: #ffff;
+    font-size: 18px;
+}
+nav ul li img{
+    width: 24px;
+}
+.content{
+
+height: 500px;
+overflow: hidden;
+}
+.left{
+
+width: 40%;
+
+float: left;
+
+background: #5CBAFF;
+
+height: 100%;
+}
+.left img{
+
+width: 100%;
+}
+.right{
+
+width: 60%;
+
+float: right;
+
+background: #0093ff;
+
+height: 100%;
+position: relative;
+
+}
+.form{
+
+width: 50%;
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%,-50%);
+}
+.form h1{
+
+color: #fff;
+}
+.form p{
+
+color: #fff;
+}
+.form h6{
+
+color: #fff;
+
+font-size: 18px;
+
+margin: 20px 0;
+}
+input{
+    
+border: none;
+    
+margin-bottom: 10px;
+    
+padding: 10px 10px;
+    
+width: 100%;
+}
+input[type="submit"]{
+    
+background: none;
+    
+background: #ffff;
+    
+width: 25%;
+    
+color: #0093FF;
+}
